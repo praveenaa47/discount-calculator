@@ -1,0 +1,95 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: sans-serif;
+    min-height: 100vh;
+    background-color: black;
+    display: grid;
+    place-items: center;
+}
+
+h1{
+    text-align: center;
+    margin-top: 0;
+
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+
+}
+
+label{
+    font-size: 1.25rem;
+    width: 100%; 
+}
+
+input{
+    margin: 1rem 0;
+    padding: 0.5em 0.75em;
+    width: 100%;
+
+}
+
+select{
+    margin: 1em 0;
+    width: 100%;
+    padding: 0.5em 0.75em;
+}
+
+button{
+    margin-top: 3rem;
+
+}
+
+
+.input-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.card{
+    width: min(500px,90%);
+    margin: 0 auto;
+   background:plum;
+    padding: 1.5em 2em;
+    
+    box-shadow: 2px 4px 6px white;
+
+}
+
+.calculate{
+    padding: 0.75em 0;
+    background: rgb(29, 91, 207);
+    color: white;
+    text-transform: capitalize;
+    font-weight: 700;
+    border: none;
+
+}
+
+.calculate:hover{
+    opacity: 0.7;
+    color: black;
+
+}
+
+.reset{
+    padding: 0.75em 0;
+    background:#a3112e;
+    color: white;
+    text-transform: capitalize;
+    font-weight: 700;
+    border: none;
+}
+
+.reset:hover{
+    color: black;
+    opacity: 0.7;
+}
